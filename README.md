@@ -14,7 +14,7 @@ gem install asciidoctor
 gem install asciidoctor-pdf --pre
 ```
 
-### Usage with [`tinyspec`](https://github.com/Ajaxy/tinyspec):
+### Usage with [tinyspec](https://github.com/Ajaxy/tinyspec):
 ```bash
 tinyspec -j && \
     ../openapi-asciidoctor/asciidoc.sh swagger.json > docs/index.html && \
